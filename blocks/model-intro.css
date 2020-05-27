@@ -1,0 +1,15 @@
+.model-intro__row {
+    padding: 0 0 140px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+}
+
+.model-intro__img {
+    max-width: 45%;
+}
+
+.model-intro__about {
+    max-width: 50%;
+}
+
