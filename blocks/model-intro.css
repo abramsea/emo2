@@ -13,3 +13,24 @@
     max-width: 50%;
 }
 
+@media screen and (max-width: 1279px) {
+    .model-intro__row {
+        padding: 0 0 60px 0;
+        flex-direction: column;
+    }
+    .model-intro__img {
+        max-width: 100%;
+        align-self: center;
+    }
+    
+    .model-intro__about {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .model-intro__row {
+        padding: 0 0 32px 0;
+    }
+}
+

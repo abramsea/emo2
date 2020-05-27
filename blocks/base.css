@@ -71,3 +71,38 @@
     width: 240px;
     margin: 40px 0 0 0;
 }
+
+
+@media screen and (max-width: 1279px) {
+    .wrapper {
+        padding: 0 40px;
+    }
+
+    .button {
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        padding: 0 16px;
+    }
+    .page-title {
+        font-size: 24px;
+    }
+    
+    .page-subtitle {
+        font-size: 20px;
+    }
+    
+    .page-text {
+        font-size: 14px;
+    }
+
+    .button {
+        width: 160px;
+        height: 30px;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+}

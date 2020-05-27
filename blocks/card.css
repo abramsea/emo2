@@ -49,4 +49,60 @@
     text-align: center;
     display: block;
     text-decoration: none;
+    font-size: 20px;
+}
+@media screen and (max-width: 1365px) {
+    .cards {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 0 8px 40px 8px;
+    }
+    
+    .card:nth-of-type(5), .card:nth-of-type(9), .card:nth-of-type(13)  {
+        margin: 0 8px 40px 8px;
+    }
+    
+    .card:first-of-type {
+        margin: 0 8px 40px 8px;
+    }
+    
+    .card:nth-of-type(4n) {
+        margin: 0 8px 40px 8px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .card {
+        max-width: 156px;
+        margin: 0 4px 32px 4px;
+    }
+    .card:nth-of-type(5), .card:nth-of-type(9), .card:nth-of-type(13)  {
+        margin: 0 4px 32px 4px;
+    }
+    
+    .card:first-of-type {
+        margin: 0 4px 32px 4px;
+    }
+    
+    .card:nth-of-type(4n) {
+        margin: 0 4px 32px 4px;
+    }
+
+    .card__title {
+        font-size: 20px;
+        margin: 12px 0 0 0;
+    }
+    
+    .card__about {
+        margin: 12px 0 0 0;
+    }
+    
+    .card__link {
+       margin: 12px 0 0 0;
+        font-size: 14px;
+    }
 }
