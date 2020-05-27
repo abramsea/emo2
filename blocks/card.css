@@ -51,7 +51,7 @@
     text-decoration: none;
     font-size: 20px;
 }
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1366px) {
     .cards {
         margin: 0 auto;
         justify-content: center;

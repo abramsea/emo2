@@ -28,6 +28,11 @@
 
 .underline {
     text-decoration: underline;
+    color: #1c2439;
+}
+
+.underline:hover {
+    text-decoration: none;
 }
 
 .page-title {
@@ -44,6 +49,7 @@
 
 .page-text {
     font-size: 20px;
+    line-height: 1.5;
     margin: 0;
 }
 
